@@ -17,9 +17,8 @@ Kirby CMS gives you the possibility to reuse such elements by extending your blu
 
 Watch the tutorial to see how we made this expamle project:
 
-- [Video Tutorial (Part1)](https://www.youtube.com/watch?v=1ycWtWRL1hQ) 
-- [Video Tutorial (Part2)](https://www.youtube.com/watch?v=KNVOLvv7alo) 
-- [Video Tutorial (Part3)](https://www.youtube.com/watch?v=fx9RObyIf40) 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1ycWtWRL1hQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 ## Installation
 
