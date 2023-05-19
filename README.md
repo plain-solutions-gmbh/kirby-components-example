@@ -4,24 +4,26 @@
 
 ![Components Logo](https://raw.githubusercontent.com/youngcut/kirby-components-example/main/.github/components_logo.jpg)
 
-
 [Kirby Component Plugin](https://github.com/youngcut/kirby-components) for Kirby V3 brings snippets and blueprints together in one place. It includes useful tools, that completely changing the way you work with Kirby: Fast and well organized.
 
 In most of the time. You're working with elements that repeats allover your webpage. Once you create these elements, you probably will use this on other project too.
 
 Kirby CMS gives you the possibility to reuse such elements by extending your blueprints or using snippets. But these are in different folders and by growing your project, you can easaly loose your orientation. And if you like to use this elements for other project, it's hard to tear all the desiered files out of an existing project.
 
-This is where the components plugin appears to the scene.
 
 **This repository contains the example that build in this example.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1ycWtWRL1hQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+## Video Tutorial
 
-To rebuild this example, just following these steps:
+Watch the tutorial to see how we made this expamle project:
+
+- [Video Tutorial (Part1)](https://www.youtube.com/watch?v=1ycWtWRL1hQ) 
+- [Video Tutorial (Part2)](https://www.youtube.com/watch?v=KNVOLvv7alo) 
+- [Video Tutorial (Part3)](https://www.youtube.com/watch?v=fx9RObyIf40) 
 
 ## Installation
 
-The easiest way to install this example project is with componser:
+The easiest way to install this example project, is with componser:
 
 `composer required microman/kirby-components-example`
 
@@ -30,6 +32,10 @@ If you download it from [GitHub](https://github.com/youngcut/kirby-components-ex
 - [Kirby Plainkit](https://github.com/getkirby/plainkit)
 - [Kirby Components Plugin](https://github.com/youngcut/kirby-components)
 - [Kirby Form Block Suite](https://github.com/youngcut/kirby-form-block-suite) 
+
+# Step-by-step tutorial
+
+To rebuild this example from scretch, just following these steps:
 
 ## Setup Kirby
 
