@@ -10,8 +10,7 @@ In most of the time. You're working with elements that repeats allover your webp
 
 Kirby CMS gives you the possibility to reuse such elements by extending your blueprints or using snippets. But these are in different folders and by growing your project, you can easaly loose your orientation. And if you like to use this elements for other project, it's hard to tear all the desiered files out of an existing project.
 
-
-**This repository contains the example that build in this example.**
+**This repository contains the example that is build in the following tutorial.**
 
 ## Video Tutorial
 
@@ -23,7 +22,7 @@ Watch the tutorial to see how we made this example project:
 
 ## Installation
 
-The easiest way to install this example project, is with componser:
+The easiest way to install this example project is with composer:
 
 `composer create-project microman/kirby-components-example`
 
@@ -35,7 +34,7 @@ If you download it from [GitHub](https://github.com/youngcut/kirby-components-ex
 
 # Step-by-step tutorial
 
-To rebuild this example from scretch, just following these steps:
+Continue reading, if you like to rebuild the example of this repository from scratch.
 
 ## Setup Kirby
 
@@ -633,16 +632,16 @@ tabs:
 
 This also works in component field. There you can set the 'active: true' props. 
 
+# Credits
+
 Thank you for your interest in kirby components plugin.
 Here all the important links:
 
 - [Kirby Components Plugin](https://github.com/youngcut/kirby-components)
 - [Get a License](https://license.microman.ch/?product=829857)
 
-
 - [Microman GitHub profile](https://github.com/youngcut)
-- [Kirby Form Block Suite](https://github.com/youngcut/kirby-form-block-suite) 
-
+- [Kirby Form Block Suite](https://github.com/youngcut/kirby-form-block-suite)
 
 - [Example Project](https://github.com/youngcut/kirby-components-example)
 - [Video Tutorial (Part1)](https://www.youtube.com/watch?v=1ycWtWRL1hQ) 
