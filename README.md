@@ -19,6 +19,18 @@ This is where the components plugin appears to the scene.
 
 To rebuild this example, just following these steps:
 
+## Installation
+
+The easiest way to install this example project is with componser:
+
+`composer required microman/kirby-components-example`
+
+If you download it from [GitHub](https://github.com/youngcut/kirby-components-example), you'il need to install:
+
+- [Kirby Plainkit](https://github.com/getkirby/plainkit)
+- [Kirby Components Plugin](https://github.com/youngcut/kirby-components)
+- [Kirby Form Block Suite](https://github.com/youngcut/kirby-form-block-suite) 
+
 ## Setup Kirby
 
 The first thing is to setup a Kirby instance. You can clone or download the [Kirby plainkit](https://github.com/getkirby/plainkit) it from github.
