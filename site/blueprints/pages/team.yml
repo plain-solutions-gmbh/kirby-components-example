@@ -1,0 +1,6 @@
+fields: 
+	img:
+		type: files
+		multiple: false
+	lead:
+			type: writer

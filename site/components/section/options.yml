@@ -1,0 +1,11 @@
+fields:
+  max_width:
+    label: Maximum Width
+    type: toggles
+    options:
+      - text: Full
+        value: full
+      - text: Medium
+        value: 3xl
+      - text: Small
+        value: xl

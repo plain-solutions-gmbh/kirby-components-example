@@ -1,0 +1,13 @@
+fields:
+	max_width:
+		label: Width
+		type: toggles
+		default: xs
+		required: true
+		options:
+			- text: Small
+				value: xs
+			- text: Medium
+				value: lg
+			- text: Large
+				value: 3xl

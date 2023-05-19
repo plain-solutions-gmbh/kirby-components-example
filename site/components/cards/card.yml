@@ -1,0 +1,13 @@
+title: Card
+icon: draft
+fields:
+  img: 
+    type: files
+    multiple: false
+  title:
+    type: text
+  lead:
+    type: writer
+  link:
+    type: pages
+    multiple: false

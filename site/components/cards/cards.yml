@@ -1,0 +1,31 @@
+title: Cards
+icon: draft
+fields:
+  source:
+    type: toggles
+    default: manual
+    required: true
+    options:
+      - text: Selected Pages
+        value: pages
+      - text: Manual
+        value: manual
+  pages:
+    query: site.index.template('team')
+    when:
+      source: pages
+  card_content:
+    type: components
+    fieldsets: cards/card
+    when:
+      source: manual
+  type:
+    type: component
+    selector:
+      default: cards/image_left
+      gap: 1em
+      ratio: 3/1
+    fieldsets: 
+      - cards/image_top
+      - cards/image_left
+      - cards/image_cover

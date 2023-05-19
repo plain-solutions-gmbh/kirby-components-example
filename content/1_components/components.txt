@@ -1,0 +1,167 @@
+Title: Components
+
+----
+
+Card-field:
+
+[
+    {
+        "content": {
+            "img": [
+                "file://NArRjuiGJp81k44l"
+            ],
+            "title": "My first Card",
+            "lead": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>",
+            "link": [
+                "page://5PcVKLMrPqrRlXM8"
+            ]
+        },
+        "id": "6fa484e0-f793-4b4f-8c65-c36c4c3e6f15",
+        "isHidden": false,
+        "type": "cards/card",
+        "isComponent": true,
+        "isSelected": true
+    }
+]
+
+----
+
+Card-style:
+
+{
+    "cards/image_top": {
+        "isSelected": false,
+        "type": "cards/image_top",
+        "id": "4c39df32-3cda-44b8-bfb9-54c77568fbe7",
+        "content": {
+            "max_width": "xs"
+        }
+    },
+    "cards/image_left": {
+        "isSelected": true,
+        "type": "cards/image_left",
+        "id": "ce6e0b97-16ac-4a1b-ba64-4bf36f7efb1a",
+        "content": {
+            "image_width": "xs"
+        }
+    },
+    "cards/image_cover": {
+        "isSelected": false,
+        "type": "cards/image_cover",
+        "id": "1c4d9cbe-bd0d-4fdf-b8d2-77d7a714a439",
+        "content": {
+            "max_width": "xs"
+        }
+    }
+}
+
+----
+
+Card-content:
+
+{
+    "cards/card": {
+        "isSelected": true,
+        "type": "cards/card",
+        "id": "d7fd66b9-feb0-41f3-ae2d-96a5f30d6831",
+        "content": {
+            "img": [
+                "file://BAgPDdIEiaqjMKYF"
+            ],
+            "title": "Styled Card",
+            "lead": "<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>",
+            "link": [
+                "page://5PcVKLMrPqrRlXM8"
+            ]
+        }
+    }
+}
+
+----
+
+Component-block:
+
+{
+    "blocks/form": {
+        "isSelected": true,
+        "type": "blocks/form",
+        "content": {
+            "mailview": null,
+            "formfields": "[{\"content\":{\"label\":\"Name\",\"slug\":\"name\",\"autofill\":\"name\",\"required\":\"true\",\"required_fail\":\"\",\"inputtype\":\"text\",\"placeholder\":\"\",\"default\":\"\",\"validate\":[]},\"id\":\"a0cf03c3-bc94-4fed-bad5-6830fa40f6e9\",\"isHidden\":false,\"type\":\"formfields_01_input\"},{\"content\":{\"label\":\"Email\",\"slug\":\"email\",\"autofill\":\"email\",\"required\":\"true\",\"required_fail\":\"\",\"inputtype\":\"email\",\"placeholder\":\"\",\"default\":\"\",\"validate\":[{\"validate\":\"email\",\"match\":\"\",\"minlength\":null,\"maxlength\":null,\"min\":null,\"max\":null,\"msg\":\"\"}]},\"id\":\"909502d2-ae1c-48f5-9524-d18adcbc35dd\",\"isHidden\":false,\"type\":\"formfields_01_input\"},{\"content\":{\"label\":\"Comments\",\"slug\":\"comments\",\"autofill\":\"\",\"required\":\"false\",\"required_fail\":\"\",\"placeholder\":\"\",\"row\":5,\"man\":255},\"id\":\"61ceeee9-273e-40d1-8a8a-8cb5f33c62a1\",\"isHidden\":false,\"type\":\"formfields_02_textarea\"}]",
+            "display": "{{name}} ({{email}})",
+            "name": "Formular",
+            "enable_notify": "false",
+            "notify_email": "",
+            "notify_subject": "",
+            "notify_body": "",
+            "enable_confirm": "false",
+            "confirm_email": "",
+            "confirm_subject": "",
+            "confirm_body": "",
+            "redirect": "false",
+            "success_message": "",
+            "success_url": []
+        },
+        "id": "bd1bd0cd-2798-43da-b54d-2668e8387a81"
+    }
+}
+
+----
+
+Blocks:
+
+[
+    {
+        "content": {
+            "max_width": "full",
+            "color": "none",
+            "source": "manual",
+            "pages": [
+                "page://cbIUNR55p1ftiSz4",
+                "page://oAJgnZPuJtMgs9v8"
+            ],
+            "card_content": "[{\"content\":{\"img\":[\"file://BAgPDdIEiaqjMKYF\"],\"title\":\"Morning\",\"lead\":\"<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>\",\"link\":[\"page://HYJjKcZGZgv0VXDR\"]},\"id\":\"d3f1c747-2c57-4dfd-8f11-9c5b6c8a8c15\",\"isHidden\":false,\"type\":\"cards/card\",\"isComponent\":true,\"isSelected\":true},{\"content\":{\"img\":[\"file://NArRjuiGJp81k44l\"],\"title\":\"Sunflower\",\"lead\":\"<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>\",\"link\":[\"page://oAJgnZPuJtMgs9v8\"]},\"id\":\"f554608b-ea1d-49c3-9ef7-1ae9b3723f02\",\"isHidden\":false,\"type\":\"cards/card\",\"isComponent\":true,\"isSelected\":true}]",
+            "type": "{\"cards/image_top\":{\"isSelected\":true,\"type\":\"cards/image_top\",\"id\":\"d0141612-f667-4f17-a5b8-a34260a2b48b\",\"content\":{\"max_width\":\"xs\"}},\"cards/image_left\":{\"isSelected\":false,\"type\":\"cards/image_left\",\"id\":\"6b66f91f-f22a-4a38-a117-38797729d6ef\",\"content\":{\"image_width\":\"xs\"}},\"cards/image_cover\":{\"isSelected\":false,\"type\":\"cards/image_cover\",\"id\":\"fb4c4e7f-c2cb-4cf0-aaff-667d4f3db236\",\"content\":{\"max_width\":\"xs\"}}}"
+        },
+        "id": "132284a2-286a-45fa-b186-3c988a0b6cac",
+        "isHidden": false,
+        "type": "cards",
+        "isComponent": true,
+        "isSelected": true
+    },
+    {
+        "content": {
+            "max_width": "full",
+            "color": "",
+            "source": "pages",
+            "pages": [
+                "page://cbIUNR55p1ftiSz4",
+                "page://oAJgnZPuJtMgs9v8"
+            ],
+            "card_content": "[{\"content\":{\"img\":[\"file://BAgPDdIEiaqjMKYF\"],\"title\":\"Morning\",\"lead\":\"<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>\",\"link\":[\"page://HYJjKcZGZgv0VXDR\"]},\"id\":\"d3f1c747-2c57-4dfd-8f11-9c5b6c8a8c15\",\"isHidden\":false,\"type\":\"cards/card\",\"isComponent\":true,\"isSelected\":true},{\"content\":{\"img\":[\"file://NArRjuiGJp81k44l\"],\"title\":\"Sunflower\",\"lead\":\"<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>\",\"link\":[\"page://oAJgnZPuJtMgs9v8\"]},\"id\":\"f554608b-ea1d-49c3-9ef7-1ae9b3723f02\",\"isHidden\":false,\"type\":\"cards/card\",\"isComponent\":true,\"isSelected\":true}]",
+            "type": "{\"cards/image_top\":{\"isSelected\":false,\"type\":\"cards/image_top\",\"id\":\"d0141612-f667-4f17-a5b8-a34260a2b48b\",\"content\":{\"max_width\":\"xs\"}},\"cards/image_left\":{\"isSelected\":true,\"type\":\"cards/image_left\",\"id\":\"6b66f91f-f22a-4a38-a117-38797729d6ef\",\"content\":{\"image_width\":\"xs\"}},\"cards/image_cover\":{\"isSelected\":false,\"type\":\"cards/image_cover\",\"id\":\"fb4c4e7f-c2cb-4cf0-aaff-667d4f3db236\",\"content\":{\"max_width\":\"xs\"}}}"
+        },
+        "id": "d1b8dbc1-afdb-4feb-9478-f590ee8dbe33",
+        "isHidden": false,
+        "type": "cards",
+        "isComponent": true,
+        "isSelected": true
+    },
+    {
+        "content": {
+            "max_width": "",
+            "color": "",
+            "text": "This is awesome!",
+            "citation": "Microman"
+        },
+        "id": "264e6811-4100-4651-acde-aa87b97642ab",
+        "isHidden": false,
+        "type": "blocks/quote",
+        "isComponent": false,
+        "isSelected": true
+    }
+]
+
+----
+
+Uuid: GQKM7ncjWnEmbsUc

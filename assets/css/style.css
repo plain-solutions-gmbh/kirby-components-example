@@ -1,0 +1,38 @@
+h1 {
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1.8rem;
+}
+h2 {
+  font-size: 1.8rem;
+  margin-top: 1em;
+  margin-bottom: 1.2rem;
+}
+a {
+  text-decoration: underline;
+}
+blockquote {
+  border-left: 3px blue solid;
+  padding-left: 0.5em;
+}
+p,
+iframe,
+ul {
+  margin-top: 1.3rem;
+}
+ul {
+  list-style: disc;
+  padding-left: 2.2rem;
+}
+li > p {
+  margin-top:0;
+}
+code {
+  background: antiquewhite;
+}
+pre {
+  background: antiquewhite;
+  padding: 1.4rem;
+  overflow: auto;
+  display: block;
+}

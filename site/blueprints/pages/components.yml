@@ -1,0 +1,59 @@
+tabs:
+	single_card:
+		label: Single Card
+		fields:
+			card_field:
+				type: components
+				fieldsets: cards/card
+				pretty: true	
+	styled_card:
+		label: Styled Card
+		fields:
+			card_style:
+				type: component
+				selector:
+					default: cards/image_top
+					gap: 1em
+					ratio: 3/1
+				fieldsets: 
+					- cards/image_top
+					- cards/image_left
+					- cards/image_cover
+				pretty: true
+			card_content:
+				type: component
+				fieldsets: cards/card
+				pretty: true
+	block:
+		label: Single Block
+		fields:
+			component_block:
+				type: component
+				fieldsets: blocks/form
+				pretty: true
+	multiple:
+		label: Multiple Cards
+		fields:
+			blocks:
+				type: components
+				tabs:
+					section/options:
+						label: options
+						position: before
+						fields:
+							color:
+								type: toggles
+								options:
+									- text: None
+										value: none
+									- text: Red
+										value: red 
+									- text: Blue
+										value: blue
+				fieldsets: 
+					- cards
+					- blocks/heading
+					- blocks/text
+					- blocks/quote
+
+				pretty: true

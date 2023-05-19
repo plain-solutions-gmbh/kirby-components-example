@@ -1,0 +1,43 @@
+{
+  "name": "microman/components-example",
+  "description": "Components Example",
+  "type": "project",
+  "keywords": [
+    "kirby",
+    "cms",
+    "starterkit",
+    "components",
+    "plugin",
+    "example",
+    "tutorial"
+  ],
+  "authors": [
+    {
+      "name": "Roman Gsponer",
+      "email": "kirby@microman.ch",
+      "homepage": "https://microman.ch"
+    }
+  ],
+  "homepage": "https://microman.ch",
+  "support": {
+    "email": "kirby@microman.ch"
+  },
+  "require": {
+    "php": ">=8.0.0 <8.3.0",
+    "getkirby/plainkit": "^3.9",
+    "microman/kirby-form-block-suite": "^3.5",
+    "microman/kirby-components": "^1.0"
+  },
+  "config": {
+    "allow-plugins": {
+      "getkirby/composer-installer": true
+    },
+    "optimize-autoloader": true
+  },
+  "scripts": {
+    "start": [
+      "Composer\\Config::disableProcessTimeout",
+      "@php -S localhost:8000 kirby/router.php"
+    ]
+  }
+}

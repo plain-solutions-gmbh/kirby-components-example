@@ -1,0 +1,13 @@
+Title: Jake
+
+----
+
+Img: - file://z7JAeY95ROZQONSt
+
+----
+
+Lead: <p>Say hello to our go-getter, Jake. With his strong work ethic and expertise in his field, he constantly exceeds the company's expectations.</p>
+
+----
+
+Uuid: HYJjKcZGZgv0VXDR

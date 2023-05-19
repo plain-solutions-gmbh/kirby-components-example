@@ -1,0 +1,13 @@
+fields:
+	image_width:
+		label: Image Width
+		type: toggles
+		default: xs
+		required: true
+		options:
+			- text: Small
+				value: xs
+			- text: Medium
+				value: md
+			- text: Large
+				value: xl
