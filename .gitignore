@@ -32,7 +32,6 @@ Icon
 
 /kirby/*
 /vendor/*
-/index.php
 
 # Plugins Files
 # ---------------
