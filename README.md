@@ -25,7 +25,7 @@ Watch the tutorial to see how we made this expamle project:
 
 The easiest way to install this example project, is with componser:
 
-`composer required microman/kirby-components-example`
+`composer require microman/kirby-components-example`
 
 If you download it from [GitHub](https://github.com/youngcut/kirby-components-example), you'il need to install:
 
